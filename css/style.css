@@ -1291,3 +1291,20 @@ h1, h2, h3, h4, h5,
   font-weight: bold;
   margin-top:1em;
 }
+.site-logo .d-inline-block{
+  margin: 0;
+  vertical-align: middle;
+  text-align: center;
+}
+.site-logo .d-inline-block .logo-heading{
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
+.site-logo .d-inline-block .logo-subheading{
+  font-family: 'Arial', sans-serif;
+  color: black;
+  font-size: 11px;
+  font-weight: 800;
+}
