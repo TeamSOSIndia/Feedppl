@@ -23,7 +23,7 @@ if(isset($_POST['mail-contact-us'])){
     try{
 
         $mail->IsSMTP(); // enable SMTP
-        $mail->SMTPDebug = 2; // debugging: 1 = errors and messages, 2 = messages only
+        $mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
         $mail->SMTPAuth = true; // authentication enabled
         $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for GMail
         $mail->Host = "mail.feedppl.org";
@@ -44,7 +44,7 @@ Message : <b>$message</b><br/>";
         $mail->AddAddress("kj.jainkalpesh@gmail.com");
 //$mail->AddAttachment("$target_path1");
         if ($mail->Send()) {
-            header("Location: thank-you.php");
+            header("Location: thank-you.html");
         } else {
             echo "Error";
         }
