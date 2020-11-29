@@ -1325,3 +1325,7 @@ ul.list-unstyled li::before {
   text-align:center;
   z-index: 9999;
 }
+.donate-frame {
+  width: 100vw;
+  height: 80vh;
+}
