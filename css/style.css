@@ -927,7 +927,7 @@ h1, h2, h3, h4, h5,
       transform: translateX(-50%);
       background: rgba(255, 255, 255, 0.3); }
   .block-counter-1 .caption {
-    font-size: 14px;
+    font-size: 20px;
     color: #fff;
     letter-spacing: .05em; }
 
@@ -1327,5 +1327,5 @@ ul.list-unstyled li::before {
 }
 .donate-frame {
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
 }
