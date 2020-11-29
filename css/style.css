@@ -1316,3 +1316,12 @@ ul.list-unstyled li::before {
   width: 1em;
   margin-left: -1em;
 }
+.float{
+  position:fixed;
+  bottom:20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color:#FFF;
+  text-align:center;
+  z-index: 9999;
+}
